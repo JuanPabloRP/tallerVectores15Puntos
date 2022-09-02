@@ -23,7 +23,6 @@ namespace tallerVector15Puntos
             {
                 Console.WriteLine("-------------------------------------------------------------");
                 Console.WriteLine("Ingrese el numero de la opción a la cual desea ir (1 al 15): ");
-
                 Console.WriteLine("-------------------------------------------------------------");
                 dato = Console.ReadLine();
 
@@ -526,6 +525,7 @@ namespace tallerVector15Puntos
 
             Console.WriteLine("Creando y llenando el vector de los que perdieron C");
             v1 = crearVector();
+
             Console.WriteLine("Creando y llenando el vector de los que perdieron Java");
             v2 = crearVector();
 
@@ -542,7 +542,6 @@ namespace tallerVector15Puntos
             {
                 Console.WriteLine("Código de estudiante que perdió Java: " + v2[i]);
             }
-
 
 
             for (i = 0; i < v1.Length; i++)
@@ -625,7 +624,6 @@ namespace tallerVector15Puntos
 
             do
             {
-
                 Console.WriteLine("Ingrese codigo: ");
                 dato = Console.ReadLine();
 
